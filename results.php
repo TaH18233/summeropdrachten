@@ -26,8 +26,8 @@
             <div class="large-4 medium-4 columns">
              <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "******";
+$password = "******";
 $database = "videos";
 
 $_SQL = mysqli_connect("$servername", "$username", "$password", "$database") or die($_SQL->error);
